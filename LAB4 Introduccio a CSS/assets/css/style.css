@@ -1,0 +1,43 @@
+/* Estilo diseñado por Christian Vasquez
+Fecha: 05/06/2024
+*/
+
+/*TAREA 1 Y 2*/
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: rgb(24, 65, 95);
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: rgb(111, 30, 49);
+    text-decoration: underline;
+}
+
+h1{
+    color: rgb(50, 50, 131);
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    color: rgb(35, 131, 24);
+}
+
+h3{
+    color: rgb(37, 22, 104);
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    text-align: justify;
+}
