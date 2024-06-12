@@ -53,15 +53,7 @@ nav ul li a:active{
     color: rgb(24, 23, 23);
 }
 
-nav ul li button{
-    background-color: #038C17;
-    color: white;
-    font-size: 1em;
-    border: none;
-    padding: 10px 20px;
-    margin-right: 20px;
-    border-radius: 10px;
-}
+
 
 nav ul li .enlace-boton{
     background-color: #038C17;
