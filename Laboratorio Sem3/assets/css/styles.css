@@ -1,229 +1,293 @@
 /* Estilo diseñado por Wilson 
 Programación Web I 
 Actualización: 5 de junio de 2024 
-*/ 
+*/
 
-/* Tarea 1 y 2 */ 
+/* Tarea 1 y 2 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-
-body{
-    font-size: 15px;
-    background-color: #f0f8ff;
-    margin: 0px;
-    padding: 0px;
+body {
+  font-size: 15px;
+  background-color: #f0f8ff;
+  margin: 0px;
+  padding: 0px;
 }
 
-
-
-h1{
-    color: rgb(11, 11, 124); 
-    font-size: 2em;
-    text-align: center;
+h1 {
+  color: rgb(11, 11, 124);
+  font-size: 2em;
+  text-align: center;
 }
 
-h2{
-    color:rgb(3, 92, 170);
-    font-size: 1.7em;
+h2 {
+  color: rgb(3, 92, 170);
+  font-size: 1.7em;
 }
 
-h3{
-    color: green;
-    font-size: 1em;
+h3 {
+  color: green;
+  font-size: 1em;
 }
 
-p{
-    color: rgb(139, 64, 10);
-    font-size: 1.1em;
-    text-align:justify;
+p {
+  color: rgb(139, 64, 10);
+  font-size: 1.1em;
+  text-align: justify;
 }
 
-
-header{
-    background-color: #2a487c;
-    padding: 10px 20;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    margin: 0;
-    font-family: "Roboto", sans-serif;
+header {
+  background-color: #2a487c;
+  padding: 10px 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-
-.logo img{
-    height: 80px;
+.logo img {
+  height: 80px;
 }
 
-
-header h1{
-    color: rgb(237, 242, 244);
-    text-align: right;
-    margin-right: 20px;
-    font-size: 1.5em;
+header h1 {
+  color: rgb(237, 242, 244);
+  text-align: right;
+  margin-right: 20px;
+  font-size: 1.5em;
 }
 
-
-
-nav ul{
-    color: white;
-    list-style-type:none;
-    padding: 0;
+nav ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
 }
 
-nav ul li{
-    display: inline;
-    margin-right: 10px;
-    padding: 10px;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  padding: 10px;
 }
 
-nav ul li a{
-    color: white;
-    text-decoration: none;
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-nav ul li a:hover{
-    color: rgb(133, 169, 232);
+nav ul li a:hover {
+  color: rgb(133, 169, 232);
 }
 
-nav ul li a:active{
-    color: rgb(133, 225, 232);
+nav ul li a:active {
+  color: rgb(133, 225, 232);
 }
 
-
-footer{
-    background-color: #2a487c;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
+footer {
+  background-color: #2a487c;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
 }
 
-footer ul{
-    color: white;
-    list-style-type:none;
-    padding: 0;
+footer ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
 }
 
-footer ul li{
-    display: inline;
-    margin-right: 10px;
+footer ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-footer ul li a{
-    font-family: "roboto", sans-serif;
-    color: rgb(244, 250, 255);
-    text-decoration: none;
+footer ul li a {
+  font-family: "roboto", sans-serif;
+  color: rgb(244, 250, 255);
+  text-decoration: none;
 }
 
-footer p{
-    text-align: center;
-    color: white;
+footer p {
+  text-align: center;
+  color: white;
 }
 
 /*
 Libreria de reglas de estilos para css
 */
 
-.container-button{
-    background-color: #6FB29E;
-    height: 10vh;
+.container-button {
+  background-color: #6fb29e;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-a {
+  background-color: #2c8ecf;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "K2D";
+  border-radius: 10px;
+  border: 0;
+  margin: 5px;
+}
+
+.btn-primary-blue {
+  background-color: #2a487c;
+}
+
+.btn-primary-sky {
+  background-color: #2c8ecf;
+}
+
+.btn-primary-green {
+  background-color: #6fb29e;
+}
+
+.btn-primary-orange {
+  background-color: #db9e31;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-yellow {
+  background-color: yellow;
+}
+
+nav ul li a.btn:hover {
+  background-color: #6fb29e;
+  color: white;
+}
+
+.home-content {
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: url(../images/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-text {
+  text-align: center;
+  padding: 30px;
+}
+
+.home-text h1 {
+  font-family: "K2D";
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.home-text p {
+  color: #2c8ecf;
+  font-size: 1.2em;
+}
+
+.home-logo {
+  height: 80%;
+}
+
+.home-logo img {
+  height: 100%;
+  width: auto;
+}
+
+.text-white {
+  color: white;
+}
+
+.home-about {
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: #d8ece6;
+  flex-direction: column;
+}
+
+.home-about h2 {
+  font-family: "K2D";
+  font-size: 2em;
+}
+
+.home-about p {
+  font-family: "K2D";
+  color: #2c8ecf;
+}
+
+.home-about a {
+  font-family: "K2D";
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.home-about a:hover {
+  background-color: #6fb29e;
+}
+
+.home-services {
+    padding: 30px;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f2f5f4;
+    flex-direction: column;
 }
 
-.container-a{
-    background-color: #2C8ECF;
-    height: 10vh;
+.card-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-family: 'K2D';
+
 }
 
-.btn{
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-family: "K2D";
+.card {
+  background-color: #e0eef7;
     border-radius: 10px;
-    border: 0;
-    margin: 5px;
-}
-
-.btn-primary-blue{
-    background-color: #2A487C;
-}
-
-.btn-primary-sky{
-    background-color: #2C8ECF;
-}
-
-.btn-primary-green{
-    background-color: #6FB29E;
-}
-
-.btn-primary-orange{
-    background-color: #DB9E31;
-}
-
-.btn-blue{
-    background-color: blue;
-}
-
-.btn-green{
-    background-color: green;
-}
-
-.btn-red{
-    background-color: red;
-}
-
-.btn-yellow{
-    background-color: yellow;
-}
-
-
-nav ul li a.btn:hover{
-    background-color: #6FB29E;
-    color: white;
-}
-
-.home-content{
-    padding: 30px;
-    margin: 0; 
-    display: flex;
-    justify-content: center;
-    height: 50vh;
-    background-image: url(../images/fondo4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.home-text{
+    gap: 10px;
+    padding: 20px;
     text-align: center;
-    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    width: 300px;
 }
 
-.home-text h1{
-    font-family: "K2D";
-    font-size: 2.5em;
-    text-align: left;
-
+.card img{
+    width: 80%;
 }
 
-.home-text p{
-    color: #2C8ECF;
-    font-size: 1.2em;
+.card p{
+    color: #2a487c;
+    font-size: 0.9em;
 
-}
-
-.home-logo{
-    height: 80%;
-}
-
-.home-logo img{
-    height: 100%;
-    width: auto;
 }
