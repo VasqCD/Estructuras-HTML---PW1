@@ -10,12 +10,16 @@
 
     <title>Acerca de nosotros</title>
     <link rel="icon" href="/LAB2 HTML Formateo y Multimedia/assets/images/ico.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
 
 <body>
     <header>
-        <h1>Acerca de nosostro</h1>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="logo">
+        </div>
+        <h1>Acerca de nosostros</h1>
 
         <nav>
             <ul>
@@ -28,60 +32,83 @@
 
     <main>
         <section id="historia">
-            <h2><mark>Nuestra Historia</mark></h2>
-            <p>Creada en <mark>2024</mark> 2024 nuestra empresa se dedica a proporcionar soluciones imnovadoras en
-                tecnologia web</p>
-            <img src="assets/images/historia.png" alt="Nuestra Historia" width="600" height="400">
-            <blockquote>
-                <p>La mejor empresa de desarrollo web</p>
-            </blockquote>
+            <div class="about-historia">
+                <div class="about-text">
+                    <h2><mark>Nuestra Historia</mark></h2>
+                    <p>Creada en <mark>2024</mark> 2024 nuestra empresa se dedica a proporcionar soluciones imnovadoras
+                        en tecnologia web</p>
+                </div>
+                <div class="container">
+                    <div class="about-imagen1">
+                        <img src="assets/images/historia.png" alt="Nuestra Historia" width="600" height="400">
+                    </div>
 
-            <p>
-                <code>
-                    Este texto es en code, somo una empresa que va inicando
-                    para seguir siempre adelante.
-                </code>
-            <pre>
-                    Este texto es en pre, somo una empresa que va inicando
-                    para seguir siempre adelante.
-                </pre>
-            <br>
-            </p>
+                    <blockquote>
+                        <p>La mejor empresa de desarrollo web</p>
+                    </blockquote>
+
+                    <p>
+                        <code>
+                        Este texto es en code, somo una empresa que va inicando
+                        para seguir siempre adelante.
+                    </code>
+                    <pre>
+                        Este texto es en pre, somo una empresa que va inicando
+                        para seguir siempre adelante.
+                    </pre>
+                    <br>
+                    </p>
+                </div>
+
+            </div>
+
         </section>
 
         <section id="equipo">
-            <h2>Nuestro Equipo</h2>
-            <p>Conozca a los miembros talentosos que conforman nuestro equipo</p>
-            <ul>
-                <li>Christian Vasquez - CEO<sub>manager</sub></li>
-                <li>Maria Fernandez - CTO</li>
-                <li>Juan Perez - Lead Developer</li>
-            </ul>
-            <img src="assets/images/equipo.jpeg" alt="Nuestro Equipo" width="600" height="400">
-            <img src="assets/images/equipo3.jpg" alt="Nuestro Equipo" width="600" height="400">
-            <video width="600" height="400" controls>
-                <source src="assets/videos/equipo.mp4" type="video/mp4">
-                Tu navegador no soporta el video
-            </video>
+            <div class="about-equipo">
+
+                <h2>Nuestro Equipo</h2>
+                <p>Conozca a los miembros talentosos que conforman nuestro equipo</p>
+                <ul>
+                    <li>Christian Vasquez - CEO<sub>manager</sub></li>
+                    <li>Maria Fernandez - CTO</li>
+                    <li>Juan Perez - Lead Developer</li>
+                </ul>
+                <div class="about-img">
+                    <img src="assets/images/equipo.jpeg" alt="Nuestro Equipo" width="600" height="400">
+                    <img src="assets/images/equipo3.jpg" alt="Nuestro Equipo" width="600" height="400">
+                </div>
+                <div class="about-video">
+                    <video width="600" height="400" controls>
+                        <source src="assets/videos/equipo.mp4" type="video/mp4">
+                        Tu navegador no soporta el video
+                    </video>
+                </div>
+
+            </div>
+
         </section>
 
         <section id="contacto">
-            <h2>Contacto</h2>
-            <address>
-                <p>Nombre: Christian Vasquez</p>
-                <pre>
-                    Direccion: Col. La Granja, Tegucigalpa, Honduras
-                </pre>
-                <p>Email: <a href="mailto:cnvasquez@uth.hn">cnvasquez@uth.hn</a></p>
-                <p>Telefono: 9475-3461</p>
-            </address>
-            <p>
-            <h2><mark>Recorrido por nuestras Oficinas</mark></h2>
-            </p>
-            <video width="600" height="400" controls>
-                <source src="assets/videos/recorrido.mp4" type="video/mp4">
-                Tu navegador no soporta el video
-            </video>
+            <div class="about-contacto">
+                <h2>Contacto</h2>
+                <address>
+                    <p>Nombre: Christian Vasquez</p>
+                    <pre>
+                        Direccion: Col. La Granja, Tegucigalpa, Honduras
+                    </pre>
+                    <p>Email: <a href="mailto:cnvasquez@uth.hn">cnvasquez@uth.hn</a></p>
+                    <p>Telefono: 9475-3461</p>
+                </address>
+                <p>
+                <h2><mark>Recorrido por nuestras Oficinas</mark></h2>
+                </p>
+                <video controls>
+                    <source src="assets/videos/recorrido.mp4" type="video/mp4">
+                    Tu navegador no soporta el video
+                </video>
+            </div>
+
         </section>
     </main>
 

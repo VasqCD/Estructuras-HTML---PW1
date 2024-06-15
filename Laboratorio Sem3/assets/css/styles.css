@@ -39,7 +39,7 @@ p {
 
 header {
   background-color: #2a487c;
-  padding: 10px 20;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,34 +84,7 @@ nav ul li a:active {
   color: rgb(133, 225, 232);
 }
 
-footer {
-  background-color: #2a487c;
-  text-align: center;
-  padding: 20px;
-  margin: 0;
-}
 
-footer ul {
-  color: white;
-  list-style-type: none;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-footer ul li a {
-  font-family: "roboto", sans-serif;
-  color: rgb(244, 250, 255);
-  text-decoration: none;
-}
-
-footer p {
-  text-align: center;
-  color: white;
-}
 
 /*
 Libreria de reglas de estilos para css
@@ -290,4 +263,33 @@ nav ul li a.btn:hover {
     color: #2a487c;
     font-size: 0.9em;
 
+}
+
+footer {
+  background-color: #2a487c;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+footer ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  font-family: "roboto", sans-serif;
+  color: rgb(244, 250, 255);
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  color: white;
 }
