@@ -265,6 +265,28 @@ nav ul li a.btn:hover {
 
 }
 
+.home-video{
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f5f4;
+    flex-direction: column;
+
+}
+
+.home-video h2{
+    font-family: 'K2D';
+    font-size: 2em;
+}
+
+.home-video p{
+    font-family: 'K2D';
+    color: #2c8ecf;
+}
+
+
 footer {
   background-color: #2a487c;
   text-align: center;

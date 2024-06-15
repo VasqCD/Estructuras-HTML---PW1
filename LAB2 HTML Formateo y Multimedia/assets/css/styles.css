@@ -59,11 +59,11 @@ nav ul li a:hover{
 .about-historia{
     padding: 30px;
     margin: 0;
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #ececea;
+    background-color: #f2f5f4;
+    flex-direction: column;
 }
 
 .about-text{
@@ -83,14 +83,37 @@ nav ul li a:hover{
     color: #004E18;
 }
 
-.about-imagen1{
-    height: 200px;
-    
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-family: 'K2D';
+
 }
 
-.about-imagen1 img{
-    height: 100%;
-    width: auto;
+.card {
+    background-color: #e0eef7;
+      border-radius: 10px;
+      gap: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+      width: 300px;
+  }
+
+  .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card p{
+    color: #2a487c;
+    font-size: 0.9em;
+
 }
 
 .about-equipo{
@@ -99,8 +122,14 @@ nav ul li a:hover{
     display:flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 70vh;
     background-color: #f7f7d2;
+}
+
+.card video{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .about-equipo h2{
@@ -119,43 +148,82 @@ nav ul li a:hover{
     list-style-type: none;
     padding: 0;
     color: #004E18;
+    text-align: left;
 }
 
 .about-equipo ul li{
+    
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.about-contacto{
+    padding: 10px;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    background-color: #eaf0e7;
+    text-align: left;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-family: 'K2D';
+}
+
+.about-contacto h2{
+    font-family: "K2D", sans-serif;
+    font-size: 2em;
+    color: #004E18;
+}
+
+.about-contacto p{
+    font-family: "K2D", sans-serif;
+    font-size: 1.2em;
+    color: #004E18;
+}
+
+footer{
+    background-color: #004E18;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+footer p{
+    color: rgb(237, 242, 244);
+    text-align: right;
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+footer ul li{
     display: inline;
     margin-right: 10px;
     padding: 10px;
 }
 
-.about-img{
-    height: 50%;
+footer ul li a{
+    color:rgb(240, 248, 255);
+    text-decoration: none;
 }
 
-.about-img img{
-    height: 100%;
-    width: auto;
-}
-
-.about-video{
-    padding: 30px;
-    margin: 0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height: 40vh;
-    background-color: #ececea;
-}
-
-.about-video video{
-    height: 100%;
-    width: auto;
+footer ul li a:hover{
+    color: #FFD700;
 }
 
 
-.about-contacto{
-    padding: 30px;
-    margin: 0;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
