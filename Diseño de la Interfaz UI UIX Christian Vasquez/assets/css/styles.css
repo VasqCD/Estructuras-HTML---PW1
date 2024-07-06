@@ -1,0 +1,612 @@
+/* Estilo diseñado por Wilson 
+Programación Web I 
+Actualización: 5 de junio de 2024 
+*/
+
+/* Tarea 1 y 2 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-size: 15px;
+  background-color: #f0f8ff;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: rgb(11, 11, 124);
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(3, 92, 170);
+  font-size: 1.7em;
+}
+
+h3 {
+  color: green;
+  font-size: 1em;
+}
+
+p {
+  color: rgb(139, 64, 10);
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.users{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  gap: 20px;
+  background: linear-gradient(to right, #3c65ad, #2a487c);
+}
+
+.users a{
+  color: white;
+  text-decoration: none;
+}
+
+.users a:hover{
+  color: #2a487c;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.btn-login{
+  background-color: #2a487c;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 0;
+  margin-right: 40px;
+}
+
+header {
+  background-color: #2a487c;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo img {
+  height: 80px;
+}
+
+header h1 {
+  color: rgb(237, 242, 244);
+  text-align: right;
+  margin-right: 20px;
+  font-size: 1.5em;
+}
+
+nav ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(133, 169, 232);
+}
+
+nav ul li a:active {
+  color: rgb(133, 225, 232);
+}
+
+
+
+/*
+Libreria de reglas de estilos para css
+*/
+
+.container-button {
+  background-color: #6fb29e;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-a {
+  background-color: #2c8ecf;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "K2D";
+  border-radius: 10px;
+  border: 0;
+  margin: 5px;
+}
+
+.btn-primary-blue {
+  background-color: #2a487c;
+}
+
+.btn-primary-sky {
+  background-color: #2c8ecf;
+}
+
+.btn-primary-green {
+  background-color: #6fb29e;
+}
+
+.btn-primary-orange {
+  background-color: #db9e31;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-yellow {
+  background-color: yellow;
+}
+
+nav ul li a.btn:hover {
+  background-color: #6fb29e;
+  color: white;
+}
+
+.home-content {
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: url(../images/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-text {
+  text-align: center;
+  padding: 30px;
+}
+
+.home-text h1 {
+  font-family: "K2D";
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.home-text p {
+  color: #2c8ecf;
+  font-size: 1.2em;
+}
+
+.home-logo {
+  height: 80%;
+}
+
+.home-logo img {
+  height: 100%;
+  width: auto;
+}
+
+.text-white {
+  color: white;
+}
+
+.home-about {
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: #d8ece6;
+  flex-direction: column;
+}
+
+.home-about h2 {
+  font-family: "K2D";
+  font-size: 2em;
+}
+
+.home-about p {
+  font-family: "K2D";
+  color: #2c8ecf;
+}
+
+.home-about a {
+  font-family: "K2D";
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.home-about a:hover {
+  background-color: #6fb29e;
+}
+
+.home-services {
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f5f4;
+    flex-direction: column;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-family: 'K2D';
+
+}
+
+.card {
+  background-color: #e0eef7;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.card img{
+    width: 80%;
+}
+
+.card p{
+    color: #2a487c;
+    font-size: 0.9em;
+
+}
+
+.home-video{
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f5f4;
+    flex-direction: column;
+
+}
+
+.home-video h2{
+    font-family: 'K2D';
+    font-size: 2em;
+}
+
+.home-video p{
+    font-family: 'K2D';
+    color: #2c8ecf;
+}
+
+
+footer {
+  background-color: #2a487c;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+footer ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  font-family: "roboto", sans-serif;
+  color: rgb(244, 250, 255);
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+.card-login{
+  background-color: #319cdfae;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+ height: 80vh;
+ display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.card1{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.card1 h2{
+  color: white;
+  font-size: 3em;
+}
+
+.card1 img{
+  width: 70%;
+}
+
+.login-container{
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 80px;
+}
+
+.login-container h2{
+  color: #2a487c;
+  font-size: 2em;
+}
+
+.login-container label{
+  color: #2a487c;
+  font-size: 13px;
+  align-self: start;
+  margin-left: 30px;
+}
+
+.login-container input{
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  width: 80%;
+}
+
+.login-container button{
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #2a487c;
+  color: white;
+  width: 80%;
+}
+
+.login-container button:hover{
+  background-color: #6fb29e;
+}
+
+.login-container a{
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #2a487c;
+  color: white;
+  width: 80%;
+}
+
+.login-container a:hover{
+  color: #15342b;
+  background-color: #6fb29e;
+}
+
+.card-apps{
+  background-color: #319cdf72;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-apps img{
+  width: 15%;
+}
+
+/*
+Estilos factura
+*/
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  gap: 400px;
+  background: url(../images/fondouth.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.order{
+  background-color: rgb(223, 223, 223);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  width: 300px;
+  margin-top: 50px;
+  color: #05080e;
+}
+
+.order h2{
+  color: #05080e;
+  font-size: 1.5em;
+}
+
+.order h3{
+  color: #05080e;
+  font-size: 1.2em;
+  text-align: left;
+
+}
+
+.order p{
+  color: #05080e;
+  font-size: 0.9em;
+}
+
+.order-mejorada{
+  background-color: rgb(223, 223, 223);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  width: 300px;
+  margin-top: 50px;
+  color: #05080e;
+  gap: 10px;
+}
+
+.order-mejorada h2{
+  color: #497feb;
+  font-size: 1em;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header img{
+  width: 20%;
+}
+
+.header h2{
+  color: #192d57;
+  font-size: 1.2em;
+}
+
+.color-blue{
+  background-color: #007bff;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+
+  width: 100%;
+}
+
+.row-fecha{
+  border: 1px dotted #686b72ac;
+}
+
+.row p{
+  color: #05080e;
+  font-size: 1em;
+}
+
+.row p span{
+  display: block;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.row-cliente{
+  border-top: 1px dotted #686b72ac;
+}
+
+.row-destino{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px dotted #686b72ac;
+}
+
+.row-destino img{
+  width: 10%;
+}
+
+.total{
+  display: flex;
+  justify-content:center;
+  align-items:end;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px dotted #686b72ac;
+}
+
+.row-descripcion{
+  border-top: 1px dotted #686b72ac;
+}
+
+.total p{
+  color: #497feb;
+  font-size: 1.3em;
+
+}
