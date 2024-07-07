@@ -1,23 +1,141 @@
-[data-bs-theme="blue"] {
-    --bs-body-color: var(--bs-white);
-    --bs-body-color-rgb: #{to-rgb($white)};
-    --bs-body-bg: var(--bs-blue);
-    --bs-body-bg-rgb: #{to-rgb($blue)};
-    --bs-tertiary-bg: #{$blue-600};
-  
-    .dropdown-menu {
-      --bs-dropdown-bg: #{mix($blue-500, $blue-600)};
-      --bs-dropdown-link-active-bg: #{$blue-700};
-    }
-  
-    .btn-secondary {
-      --bs-btn-bg: #{mix($gray-600, $blue-400, .5)};
-      --bs-btn-border-color: #{rgba($white, .25)};
-      --bs-btn-hover-bg: #{darken(mix($gray-600, $blue-400, .5), 5%)};
-      --bs-btn-hover-border-color: #{rgba($white, .25)};
-      --bs-btn-active-bg: #{darken(mix($gray-600, $blue-400, .5), 10%)};
-      --bs-btn-active-border-color: #{rgba($white, .5)};
-      --bs-btn-focus-border-color: #{rgba($white, .5)};
-      --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
-    }
-  }
+.bg-primary-blue{
+  background-color: #2a487c;
+}
+
+.img-logo{
+  width: 80px;
+  height: 80px;
+}
+
+/*identidad visual BitAlfa
+$bitalfa-azul: #2A487C !default;
+$bitalfa-azul-claro: #2C8ECF !default;
+$bitalfa-azul-oscuro: #1A3A5A !default;
+$bitalfa-verde: #6FB29E !default;
+$bitalfa-verde-claro: #A3D9C4 !default;
+$bitalfa-verde-oscuro: #4A8B7A !default;
+$bitalfa-naranja: #DB9E31 !default;
+$bitalfa-naranja-claro: #F2C17D !default;
+$bitalfa-naranja-oscuro: #A97A2D !default;
+
+*/
+
+/*fondos*/
+.bg-bitalfa-azul{
+  background-color: #2A487C;
+}
+.bg-bitalfa-azul-claro{
+  background-color: #2C8ECF;
+}
+.bg-bitalfa-azul-oscuro{
+  background-color: #1A3A5A;
+}
+.bg-bitalfa-verde{
+  background-color: #6FB29E;
+}
+.bg-bitalfa-verde-claro{
+  background-color: #A3D9C4;
+}
+.bg-bitalfa-verde-oscuro{
+  background-color: #4A8B7A;
+}
+.bg-bitalfa-naranja{
+  background-color: #DB9E31;
+}
+.bg-bitalfa-naranja-claro{
+  background-color: #F2C17D;
+}
+.bg-bitalfa-naranja-oscuro{
+  background-color: #A97A2D;
+}
+
+.btn-bitalfa-azul{
+  background-color: #2A487C;
+  border-color: #2A487C;
+}
+.btn-bitalfa-azul:hover{
+  background-color: #1A3A5A;
+  border-color: #1A3A5A;
+}
+.btn-bitalfa-azul:focus{
+  background-color: #1A3A5A;
+  border-color: #1A3A5A;
+}
+
+.btn-bitalfa-azul-claro{
+  background-color: #2C8ECF;
+  border-color: #2C8ECF;
+}
+.btn-bitalfa-azul-claro:hover{
+  background-color: #1A3A5A;
+  border-color: #1A3A5A;
+}
+.btn-bitalfa-azul-claro:focus{
+  background-color: #1A3A5A;
+  border-color: #1A3A5A;
+}
+
+.btn-bitalfa-azul-oscuro{
+  background-color: #1A3A5A;
+  border-color: #1A3A5A;
+}
+.btn-bitalfa-azul-oscuro:hover{
+  background-color: #2C8ECF;
+  border-color: #2C8ECF;
+}
+.btn-bitalfa-azul-oscuro:focus{
+  background-color: #2C8ECF;
+  border-color: #2C8ECF;
+}
+
+.btn-bitalfa-verde{
+  background-color: #6FB29E;
+  border-color: #6FB29E;
+}
+.btn-bitalfa-verde:hover{
+  background-color: #4A8B7A;
+  border-color: #4A8B7A;
+}
+.btn-bitalfa-verde:focus{
+  background-color: #4A8B7A;
+  border-color: #4A8B7A;
+}
+
+.btn-bitalfa-verde-claro{
+  background-color: #A3D9C4;
+  border-color: #A3D9C4;
+}
+.btn-bitalfa-verde-claro:hover{
+  background-color: #4A8B7A;
+  border-color: #4A8B7A;
+}
+.btn-bitalfa-verde-claro:focus{
+  background-color: #4A8B7A;
+  border-color: #4A8B7A;
+}
+
+.btn-bitalfa-verde-oscuro{
+  background-color: #4A8B7A;
+  border-color: #4A8B7A;
+}
+.btn-bitalfa-verde-oscuro:hover{
+  background-color: #6FB29E;
+  border-color: #6FB29E;
+}
+.btn-bitalfa-verde-oscuro:focus{
+  background-color: #6FB29E;
+  border-color: #6FB29E;
+}
+
+.btn-bitalfa-naranja{
+  background-color: #DB9E31;
+  border-color: #DB9E31;
+}
+.btn-bitalfa-naranja:hover{
+  background-color: #A97A2D;
+  border-color: #A97A2D;
+}
+.btn-bitalfa-naranja:focus{
+  background-color: #A97A2D;
+  border-color: #A97A2D;
+}
