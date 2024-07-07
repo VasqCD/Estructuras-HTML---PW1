@@ -37,6 +37,15 @@ h3{
     color:rgb(33, 56, 109);
 }
 
+.body-ejercice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+}
 
 .body-ejercice button{
     padding: 15px 30px;
@@ -88,7 +97,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 200px;
+    height: 600px;
     padding: 20px;
     border-top: solid 1px rgb(177, 190, 186);
     border-radius: 10px;
@@ -132,6 +141,13 @@ nav ul li a:hover{
     margin: 10px;
     border-radius: 10px;
     border: solid 1px rgb(177, 190, 186);
+}
+
+.container-table {
+    width: 60%;
+    margin: 20px auto;  
+    overflow-x: auto;  
+
 }
 
 table{
@@ -203,10 +219,3 @@ table tr:hover{
     color:rgb(33, 56, 109);
 }
 
-.container-table{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10%;
-    margin-left: 10%;
-}

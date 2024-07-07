@@ -112,7 +112,7 @@ function agregarEmpleado() {
   var tabla = "<table>"; //se crea la tabla
   tabla += "<tbody>"; //se crea el cuerpo de la tabla con tbody
 
-  for (var i = 0; i < empleados.length; i++) { 
+  for (var i = 0; i < empleados.length; i++) { //se crea un for para recorrer el array de empleados y mostrarlos en la tabla
     tabla += "<tr>"; 
     tabla += "<td>" + empleados[i].numero + "</td>"; 
     tabla += "<td>" + empleados[i].nombre + "</td>"; 
