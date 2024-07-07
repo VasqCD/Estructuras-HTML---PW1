@@ -1,0 +1,212 @@
+
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(33, 56, 109);
+}
+.card-apps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid 1px rgb(177, 190, 186);
+    margin: 10px;
+    background-color: white;
+}
+
+.card-apps1 h2{
+    font-size: 3em;
+    font-weight: bold;
+    color:rgb(33, 56, 109);
+}
+
+
+.body-ejercice button{
+    padding: 15px 30px;
+}
+
+.body-ejercice button:hover{
+    background-color: rgb(28, 74, 59);
+    color: white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    border-bottom: solid 2px rgb(177, 190, 186);
+    padding: 10px 20px;
+}
+
+.contents{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    ;
+}
+
+.text-p{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.list ul{
+    align-items: center;
+}
+
+.list ul li{
+    list-style:lower-alpha;
+    font-size: 1.5em;
+  
+}
+
+.body-ejercice{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+    border-top: solid 1px rgb(177, 190, 186);
+    border-radius: 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-group input{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(177, 190, 186);
+}
+
+.form-group label{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(33, 56, 109);
+}
+
+.form-group button{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(177, 190, 186);
+}
+
+.form-group button:hover{
+    background-color: rgb(28, 74, 59);
+    color: white;
+}
+
+.form-group select{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(177, 190, 186);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th{
+    background-color: rgb(33, 56, 109);
+    color: white;
+    padding: 10px 20px;
+}
+
+table td{
+    padding: 10px 20px;
+    border: solid 1px rgb(177, 190, 186);
+}
+
+table tr:hover{
+    background-color: rgb(177, 190, 186);
+}
+
+.btn-primary-red{
+    background-color: rgb(251, 71, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid 1px rgb(177, 190, 186);
+}
+
+.buttons .btn-primary-red:hover{
+    background-color: rgb(185, 1, 1);
+    color: white;
+}
+
+.btn-primary-red:active{
+    background-color: rgb(185, 1, 1);
+    color: white;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(177, 190, 186);
+}
+
+
+
+
+.form-group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-group1 input{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(177, 190, 186);
+}
+
+.form-group1 label{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(33, 56, 109);
+}
+
+.container-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}

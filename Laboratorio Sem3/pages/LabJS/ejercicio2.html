@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/styles-labjs.css">
+</head>
+
+<body>
+    <div class="users">
+        <a href="../../index.html" class="btn-login">Cerrar sesion</a>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="../../assets/images/logoPrincipalBN.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="../../factura.html">Factura</a></li>
+                <li><a href="../LabJS/lab-js.html"> Laboratorio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="card-login">
+                <div class="card-apps">
+                    <div class="card-apps1">
+                        <h2>Ejercio 2 JavaScript</h2>
+                    </div>
+
+                    <div class="buttons">
+
+                    </div>
+                    <div class="contents">
+                        <p class="text-p">
+                            Implemente en una página html, la impresión de Hola Mundo mediante
+                            Document.write
+                        </p>
+                        <div class="list">
+                            <ul>
+                                <li>Busque el código dentro de HTML e identifique su estructura.</li>
+                                <li>¿Se puede utilizar un elemento HTML dentro de un Script JS?</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <section id="ejercicio">
+                        <div class="body-ejercice">
+                            <script>
+                                document.write("<h2>Hola Mundo</h2>");
+                                document.write("<h3>¿Se puede utilizar un elemento HTML dentro de un Script JS?</h3>");
+                                document.write("<p>Si, se puede utilizar un elemento HTML dentro de un script de JavaScript. Esto se puede hacer de varias formas:<br> Creando elementos con  document.createElement() Manipulando el DOM con  innerHTML Usando plantillas de cadenas (template literals) Utilizando  document.write() (aunque es menos recomendado en desarrollo moderno) Cada método tiene sus propios usos y consideraciones, pero todos permiten generar o manipular contenido HTML desde JavaScript");
+                            </script>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../assets/css/styles-labjs.css">
+    <script src="parte1.js"></script>
+</head>
+
+<body>
+    <div class="users">
+        <a href="../../index.html" class="btn-login">Cerrar sesion</a>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="../../assets/images/logoPrincipalBN.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="../../factura.html">Factura</a></li>
+                <li><a href="../LabJS/lab-js.html"> Laboratorio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="card-login">
+                <div class="card-apps">
+                    <div class="card-apps1">
+                        <h2>Ejercio 10 JavaScript</h2>
+                    </div>
+                    <div class="buttons">
+                    </div>
+                    <div class="contents">
+                        <p class="text-p">
+                            Crear una página web que utilice una función JS para llenar una tabla de datos
+                            (etiqueta HTML) de empleados, considere que la tabla debe contener datos como el
+                            número del empleado, el nombre, apellido, edad y sueldo. Haga uso de tabla HTML,
+                            botones, eventos, funciones JS, getElement del document y de InnerHTML.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ejercicio">
+            <div class="body-ejercice">
+                <div class="form-group1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido">
+                </div>
+                <div class="form-group1">
+                    
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad">
+                    <label for="sueldo">Sueldo</label>
+                    <input type="number" id="sueldo">
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-primary-green text-white" onclick="agregarEmpleado()">Agregar Empleado</button>
+                    <button class="btn-primary-red text-white" onclick="eliminarEmpleado()">Eliminar Empleado</button>
+                </div>
+                <div class="container-table">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>Numero</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Edad</th>
+                                <th>Sueldo</th>
+                            </tr>
+                        </thead>
+                        <tbody id="empleados">
+                        </tbody>
+                    </table>
+
+                    
+                </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
